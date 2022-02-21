@@ -8,6 +8,9 @@ return (
     <Routes>
         <Route path="/" element= {<Soon />}/>
         <Route path="/clientes/triotec" element= {<Triotec />}/>
+        <Route path="*" element= {<h1>Não encontrado</h1>}/>
+
+        
     </Routes>
 );
 

@@ -89,20 +89,11 @@ export const {styled, css} = createStitches({
         },
 
         media: {
-          darkMode: '(prefers-color-scheme: dark)',
-
-          // @Media min-width
-
-          "mediaminW1": "(min-width: 480px)",
-          mediaminW2: '(min-width: 640px)',
-          mediaminW3: '(min-width: 768px)',
-          mediaminW4: '(min-width: 1024px)',
-
-          // @Media max-width
-          mediamaxW4: '(max-width: 991px)'
-
-
+          bp1: '(min-width: 640px)',
+          bp2: '(min-width: 768px)',
+          bp3: '(min-width: 1024px)',
         },
+      
 
     },
 
