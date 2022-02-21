@@ -1,1 +1,14 @@
 import { Routes, Route} from 'react-router-dom'
+import Soon from '../pages/soon';
+import Triotec from '../pages/triotec';
+
+
+export default function MainRoutes() {
+return (
+    <Routes>
+        <Route path="/" element= {<Soon />}/>
+        <Route path="/clientes/triotec" element= {<Triotec />}/>
+    </Routes>
+);
+
+}

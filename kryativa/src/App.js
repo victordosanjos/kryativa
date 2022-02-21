@@ -1,9 +1,16 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./configs/routes";
+
+
+
 function App() {
-    return ( 
+    return (
         <>
-        <h1>Filha da puta</h1>
+            <Router>
+                <Routes />
+            </Router>
         </>
-     );
+    );
 }
 
 export default App;
