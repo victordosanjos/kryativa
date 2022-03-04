@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import DefaultDomain from '../components/dominio.jsx';
+import Pagamentos from '../pages/pagamentos.jsx';
 import Soon from '../pages/soon.jsx';
-import Triotec from '../pages/triotec.jsx';
-import Pagamentos from '../pages/pagamento.jsx';
-
+import Triotec from '../pages/clients/triotec.jsx';
 
 
 export default function MainRoutes() {
@@ -11,8 +11,8 @@ export default function MainRoutes() {
         <Routes>
             <Route path="/" element={<Soon />} />
             <Route path="/clientes/triotec" element={<Triotec />} />
-            <Route path="teste" element={<Pagamentos />}>
-                <Route path="pag" element={<h1>Sei lá</h1>} />
+            <Route path="Pagamento" element={<Pagamentos />}>
+                <Route path="dominio" element={<DefaultDomain />} />
             </Route>
             <Route path="*" element={<h1>Não encontrado</h1>} />
 

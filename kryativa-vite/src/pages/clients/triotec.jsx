@@ -4,7 +4,7 @@ function Triotec(){
 
     return (
     <>
-    <h1>Ola</h1>
+    <h1>Em construção</h1>
     </> 
 
     )
