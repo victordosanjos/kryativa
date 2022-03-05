@@ -1,0 +1,29 @@
+.backgroundFix {
+    background-color: #262626;
+    padding-left: 10vh;
+}
+
+.mainTittleSup {
+    color: white;
+    font-size: 8vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 30vh;
+
+}
+
+.mainTittleDown {
+    color: #42D3AC;
+    font-size: 8vh;
+    border-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.SubTitle {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+}

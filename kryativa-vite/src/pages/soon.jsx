@@ -8,15 +8,46 @@ import LogoBranca from '../images/logo-branca.webp';
 function Soon() {
 
     return (
+        <>
+            <Div>
+                <br />
+                <br />
+                <img className="img-fluid ImgMobileFix" src={LogoBranca} alt="Identidade visual da Kryativa em coloração branca e verde água" width="8%" />
+                <h1 className="TitleMobileTextFix">EM CONSTRUÇÃO</h1>
+                <H5 className="SubtitleMobileTextFix">ENTRE EM CONTATO ATRAVÉS DAS REDES SOCIAIS</H5>
+                <br />
+                <br />
+                <br />
 
-        <Div>
-            <br />
-            <br />
-            <img className="img-fluid ImgMobileFix" src={LogoBranca} alt="Identidade visual da Kryativa em coloração branca e verde água" width="8%" />
-            <h1 className="TitleMobileTextFix">EM CONSTRUÇÃO</h1>
-            <H5 className="SubtitleMobileTextFix">ENTRE EM CONTATO ATRAVÉS DAS REDES SOCIAIS</H5>
-        </Div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                        </div>
+                        <div className="col-2 text-dark bg-white rounded-pill">
+                            <div className="row">
+                                <div className="col p-3 ">
+                                    <a href="https://e.kryativa.dev/instagram" title="Instagram da Kryativa">
+                                        <i class="bi bi-instagram rounded-circle IconsControl"></i>
+                                    </a>
+                                </div>
+                                <div className="col p-3">
+                                    <a href="https://e.kryativa.dev/whatsapp" title="WhatsApp da Kryativa">
+                                        <i class="bi rounded-circle IconsControl bi-whatsapp"></i>
+                                    </a>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                        </div>
+                    </div>
+                </div>
+
+            </Div>
+
+
+
+        </>
 
     )
 

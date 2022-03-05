@@ -4,6 +4,9 @@ import { createStitches } from '@stitches/react';
 export const {styled, css} = createStitches({
     theme: {
         colors: {
+          //Kryativa Main Color
+            ciano: "#42D3AC",
+
           // Azul
             defaultLightBlue: "#0ecaff",
             defaultDarkBlue: "#04C4C",

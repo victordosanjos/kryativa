@@ -1,0 +1,63 @@
+
+.backgroundPrice {
+    background-image: url('https://kryativa.dev/images/paymentBackground.webp');
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 50vh;
+    padding-top: 60px;
+
+}
+
+.boxImage{
+    width: 40%;
+}
+
+.BoxText {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.boxDescription {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.boxIcons {
+    width: 10%;
+    padding-bottom: 10px;
+
+}
+
+.IconValue{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.boxButton {
+    color: white;
+    background-color: #262626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+
+.SecureText {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 15%;
+}
+
+

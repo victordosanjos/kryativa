@@ -21,3 +21,17 @@
 
 }
 
+.IconsControl {
+    color: black;
+    font-size: 3vh;
+    background-color: #00e6b7;
+    padding: 7%;
+    padding-left: 14%;
+    padding-right: 14%;
+
+
+}
+
+.IconsControl:hover {
+    background-color: black;
+}
