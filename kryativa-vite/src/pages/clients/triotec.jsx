@@ -2,12 +2,35 @@ import React from "react";
 import logoTriotec from '../../images/logoTriotec.png';
 import '../../design/css/triotec.css';
 import profileicon from '../../images/profileicon.png';
+import Helmet from "react-helmet";
 
 
 function Triotec() {
 
     return (
         <>
+        <Helmet>
+    
+{/* <!-- HTML Meta Tags --> */}
+<title>Grupo Triotec</title>
+<meta name="description" content="Captamos objetivos e necessidades para construção de sonhos."/>
+
+{/* <!-- Facebook Meta Tags --> */}
+<meta property="og:url" content="https://www.kryativa.dev/clientes/triotec/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Grupo Triotec"/>
+<meta property="og:description" content="Captamos objetivos e necessidades para construção de sonhos."/>
+<meta property="og:image" content="https://kryativa.dev/images/profileTriotec.webp"/>
+
+{/* <!-- Twitter Meta Tags --> */}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="twitter:domain" content="kryativa.dev"/>
+<meta property="twitter:url" content="https://www.kryativa.dev/clientes/triotec/"/>
+<meta name="twitter:title" content="Grupo Triotec"/>
+<meta name="twitter:description" content="Captamos objetivos e necessidades para construção de sonhos."/>
+<meta name="twitter:image" content="https://kryativa.dev/images/profileTriotec.webp"/>
+
+        </Helmet>
             <div className="container-fluid d-flex align-items-center vh-100 bgMobileFix BgMarmore">
                 <img className="BgLogo mx-auto d-block img-fluid" src={logoTriotec}></img>
             </div>
