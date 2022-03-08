@@ -23,7 +23,7 @@ function Soon() {
                     <div className="row">
                         <div className="col">
                         </div>
-                        <div className="col-2 text-dark bg-white rounded-pill">
+                        <div className="col-2 text-dark bgControl rounded-pill">
                             <div className="row">
                                 <div className="col p-3 ">
                                     <a href="https://e.kryativa.dev/instagram" title="Instagram da Kryativa">

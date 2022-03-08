@@ -21,6 +21,12 @@
 
 }
 
+.bgControl{
+    background-color: white;
+}
+
+
+
 .IconsControl {
     color: black;
     font-size: 3vh;
@@ -34,4 +40,11 @@
 
 .IconsControl:hover {
     background-color: black;
+    color: #00e6b7;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bgControl{
+        background-color: #262626;
+    }
 }

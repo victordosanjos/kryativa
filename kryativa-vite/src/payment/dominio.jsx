@@ -37,7 +37,7 @@ export default function PaginadeTeste(props) {
     )
 };
 
-const stripe = await loadStripe('KEY')
+const stripe = loadStripe('KEY')
 
 function StripeRedirect() {
     stripe.redirectToCheckout({
