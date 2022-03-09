@@ -1,10 +1,11 @@
 
 .backgroundPrice {
-    background-image: url('https://kryativa.dev/images/paymentBackground.webp');
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 50vh;
+    background-image: url(https://sexogay.net.br/wp-content/uploads/2021/01/piroca-grande-fotos3.jpg);
+    background: rgb(66,211,172, 0.3);
+    backdrop-filter: blur(50px);
     padding-top: 60px;
+    max-width: 60vh;
+    max-height: 100vh;
 
 }
 
@@ -17,14 +18,14 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    color: white;
+    color: #262626;
 }
 
 .boxDescription {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    color: white;
+    color: #262626;
 }
 
 .boxIcons {
@@ -36,7 +37,7 @@
 .IconValue{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    color: white;
+    color: #262626;
 }
 
 
@@ -53,6 +54,7 @@
 
 
 .SecureText {
+    color: #262626;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
