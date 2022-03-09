@@ -99,7 +99,9 @@ function Triotec() {
                         <br />
                         <br />
                     </div>
+                        <a href="https://e.kryativa.dev/instagram" tittle="instagram kryativa" target="_blank">
                         <h2 className="footer">Desenvolvido pela Kryativa</h2>
+                        </a>
                 </div>
             </div>
 

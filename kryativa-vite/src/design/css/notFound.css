@@ -1,0 +1,67 @@
+.bgNotFound{
+    background-color: #fea8f3;
+}
+
+.notBgFoundImage{
+height: 65vh;
+padding-top: 18vh;
+
+
+}
+.imageText{
+    font-size: 7vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:white;
+    padding-bottom: 5vh;
+    line-height: 0;
+}
+
+.meanText{
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 0;
+}
+
+.lostText{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 10vh;
+}
+
+.lostText1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0;
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    .notBgFoundImage{
+        max-height: 50vh;
+    }
+    .imageText{
+        font-size: 40px;
+    }
+    .meanText{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .lostText{
+        font-size: 15px;
+        line-height: 2px;
+    }
+    .lostText1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
