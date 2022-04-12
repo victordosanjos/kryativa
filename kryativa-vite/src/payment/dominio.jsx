@@ -1,5 +1,3 @@
-import '@stripe/stripe-js';
-import { loadStripe } from '@stripe/stripe-js';
 import '../design/css/Dominio.css';
 import Tempo from '../icons/verificacao-de-tempo.png';
 import Dolar from '../icons/dolar.png'
@@ -38,22 +36,4 @@ export default function PaginadeTeste(props) {
     )
 };
 
-const stripe = loadStripe('KEY')
-
-function StripeRedirect() {
-    stripe.redirectToCheckout({
-        lineItems: [
-            {
-                price: "PRICE",
-                quantity: 1
-            },
-        ],
-
-        mode: "subscription",
-        successUrl: "https://kryativa.dev/sucesso",
-        cancelUrl: "https://kryativa.dev/falhou",
-    })
-        .then(function (result) {
-        });
-}
 

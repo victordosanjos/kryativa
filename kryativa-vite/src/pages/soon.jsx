@@ -27,12 +27,12 @@ function Soon() {
                             <div className="row">
                                 <div className="col p-3 ">
                                     <a href="https://e.kryativa.dev/instagram" title="Instagram da Kryativa">
-                                        <i class="bi bi-instagram rounded-circle IconsControl"></i>
+                                        <i className="bi bi-instagram rounded-circle IconsControl"></i>
                                     </a>
                                 </div>
                                 <div className="col p-3">
                                     <a href="https://e.kryativa.dev/whatsapp" title="WhatsApp da Kryativa">
-                                        <i class="bi rounded-circle IconsControl bi-whatsapp"></i>
+                                        <i className="bi rounded-circle IconsControl bi-whatsapp"></i>
                                     </a>
 
                                 </div>

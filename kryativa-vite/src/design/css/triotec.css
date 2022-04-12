@@ -43,6 +43,29 @@ a:link {
     padding-bottom: 130px;
 }
 
+.servicesControl {
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
+.servicesTittle {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+.servicesDesc {
+    color:white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+
+
 .pfDescription{
     color: #E5A75E;
     font-family: 'Poppins', sans-serif;
@@ -66,7 +89,27 @@ a:link {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 200;
-    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile-2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    background: #E5A75E;
+    max-width: 20vh;
+    border-radius: 71px 71px 71px 71px / 66px 66px 66px 66px;
+
+
+}
+
+.profile-2:hover {
+    background-color: white;
+    color: #E5A75E;
+    transition:.6s ease;
+
+
 }
 
 
@@ -127,6 +170,10 @@ a:link {
     .profile{
         font-size: 15px;
         padding-top: 5px;
+    }
+
+    .profile-2{
+        font-size: 15px;
     }
 
     
