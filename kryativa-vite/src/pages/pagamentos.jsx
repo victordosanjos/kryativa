@@ -24,4 +24,5 @@ function Pagamentos() {
     );
 }
 
+
 export default Pagamentos;
