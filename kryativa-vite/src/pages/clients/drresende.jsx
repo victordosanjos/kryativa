@@ -11,12 +11,12 @@ function Drresende() {
 
     const { isLoaded } = useLoadScript({
         id: 'google-map-script',
-        googleMapsApiKey: ""
+        googleMapsApiKey: "KEY"
     })
 
     const LocalizacaoMap = {
-        lat: -20.45769992697866,
-        lng: -54.590778831829425
+        lat: -20.457725004970996,
+        lng: -54.59073578659181,
     }
 
     return (
@@ -45,21 +45,23 @@ function Drresende() {
                         <h3 className="BioText text-start">Proporcionando a harmonia entre seu sorriso e sua face.<br /><br /> Dr. Resende possui graduação em Odontologia pelo PROUNI na Uniderp. Além de, vários cursos na área e ser expert em clareamento dental. Atualmente se encontra especializando em Harmonização Orofacial no Instituto Odontológico das Américas. Com alta performance, realiza um tratamento acolhedor e humanizado.<br /><br />• CRO/MS 7848</h3>
                     </div>
                 </div>
-                <div className="container-fluid description">
+                <div className="container text-center aditionalButton">
                     <br />
-                    <div className="row justify-content-around">
-                        <div className="col-4 descriptionText my-auto">
-                            <h3 className="ContatoText text-center">Agendar um horário</h3>
+                    <div className="row">
+                        <div className="col descriptionText my-auto">
+                            <h3 className="ContatoText text-end">Você pode marcar um horário</h3>
+
                         </div>
 
-                        <div className="col-4">
+                        <div className="col">
                             <a href="" tittle="">
                                 <button type="btn btn-primary" className="botao">Clique Aqui</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid text-center description">
+
+                <div className="container text-center description">
                     <div className="row justify-content-center">
 
                         <div className="col-4">

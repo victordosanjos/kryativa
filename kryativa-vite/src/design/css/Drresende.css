@@ -27,11 +27,15 @@
 .BioProfile{
     width: 50%;
 }
+
 .description{
     padding-top: 10px;
-    padding-bottom: 55px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.aditionalButton {
+    padding-bottom: 100px;
 }
 
 .BioText {
@@ -50,7 +54,7 @@
     color:white;
     background-color: #262626;
     font-size: 25px;
-    padding:15px;
+    padding: 8px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     border: 0;
