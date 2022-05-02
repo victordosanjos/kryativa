@@ -1,3 +1,10 @@
+.TextControl {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+}
+
 .bgGradiente {
     background-image: url(../../images/backgroundresende.webp);
     background-size: cover;
@@ -31,36 +38,35 @@
     color:white;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    border-left: 5vh;
-    max-width:98%;
+}
 
+.BioText:hover {
+    color: #1394f0;
+    transition:.6s ease;
 }
 
 
 .botao {
     color:white;
     background-color: #262626;
-    font-size: 3vh;
-    border-top: 0;
-    border-left: 0;
-    border-bottom: 0;
-    border-right: 0;
+    font-size: 25px;
+    padding:15px;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
     font-weight: 200;
-    top:85vh;
-    left:70vh;
-    padding: 5vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    border: 0;
     border-radius: 71px 71px 71px 71px / 66px 66px 66px 66px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #1394f0;
+    transition:.6s ease;
 }
 
 .ContatoText{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: white;
-    text-transform: uppercase;
 }
 
 
@@ -78,9 +84,8 @@
     background-color: white;
     color: #1394f0;
     transition:.6s ease;
-
-
 }
+
 .profile{
     padding-top: 10px;
 }
@@ -89,10 +94,45 @@
     padding-bottom: 1%;
 }
 
-.map{
-    height:100vh;
+.mapControl{
+    height: 13vh;
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
     }
 
-.map{
-    height:100vh;
+    @media only screen and (max-width: 767px) {
+        .bgGradiente {
+            max-height: 45vh;
+            }
+
+        .BgLogo {
+            height: 15vh;
+            }
+
+        .LogoBio {
+            width: 200%;
+
+        }
+
+        .BioProfile {
+            width: 60%;
+        }
+
+        .BioText{
+            font-size: medium;
+        }
+
+        .ContatoText {
+            font-size: medium;
+        }
+
+        .botao {
+            font-size: medium;
+        }
+
+        .mapControl {
+            width: 100%;
+
+        }
+    
     }
