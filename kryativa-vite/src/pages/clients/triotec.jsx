@@ -4,7 +4,7 @@ import Aurea from '../../images/clients/Aurea.webp';
 import Ezequiel from '../../images/clients/Ezequiel.webp';
 import Paula from '../../images/clients/Paula.webp';
 import logoTriotec from '../../images/logoTriotec.png';
-
+import MadeByUs from "../../components/MadeByUs";
 
 function Triotec() {
 
@@ -106,9 +106,8 @@ function Triotec() {
                         <br />
                         <br />
                     </div>
-                    <a href="https://e.kryativa.dev/instagram" tittle="instagram kryativa" >
-                        <h2 className="footer">Desenvolvido pela Kryativa</h2>
-                    </a>
+                    <br/>
+                    <MadeByUs/>
                 </div>
             </div>
 

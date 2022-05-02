@@ -6,6 +6,7 @@ import NotFound from '../pages/notFound.jsx';
 import Pagamentos from '../pages/pagamentos.jsx';
 import Soon from '../pages/soon.jsx';
 import PaginadeTeste from '../payment/dominio.jsx';
+import DrResende from '../pages/clients/drresende.jsx';
 
 
 
@@ -19,9 +20,8 @@ export default function MainRoutes() {
                 <Route path="dominio" element={<PaginadeTeste />} />
             </Route>
             <Route path="/leagueoflegends" element={<MatchedBefore />} />
+            <Route path="/clientes/drresende" element={<DrResende />} />
             <Route path="*" element={<NotFound />} />
-
-
         </Routes>
     );
 

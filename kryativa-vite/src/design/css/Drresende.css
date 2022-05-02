@@ -1,0 +1,98 @@
+.bgGradiente {
+    background-image: url(../../images/backgroundresende.webp);
+    background-size: cover;
+}
+
+.bg {
+    background-color: #111111;
+}
+
+.bio {
+    padding-top: 10%;
+    padding-bottom: 55px;
+    padding-left: 15%;
+}
+
+.LogoBio{
+    width: 190%;
+}
+
+.BioProfile{
+    width: 50%;
+}
+.description{
+    padding-top: 10px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.BioText {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    border-left: 5vh;
+    max-width:98%;
+
+}
+
+
+.botao {
+    color:white;
+    background-color: #262626;
+    font-size: 3vh;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    top:85vh;
+    left:70vh;
+    padding: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 71px 71px 71px 71px / 66px 66px 66px 66px;
+}
+
+.ContatoText{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.socialIconD{
+    color:white;
+    font-size: 5vh;
+    background-color: #0C85E6;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh ;
+    padding-bottom: 1vh;
+}
+
+.socialIconD:hover {
+    background-color: white;
+    color: #1394f0;
+    transition:.6s ease;
+
+
+}
+.profile{
+    padding-top: 10px;
+}
+
+.adress{
+    padding-bottom: 1%;
+}
+
+.map{
+    height:100vh;
+    }
+
+.map{
+    height:100vh;
+    }
