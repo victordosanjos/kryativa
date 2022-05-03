@@ -49,7 +49,7 @@ function Drresende() {
                     <br />
                     <div className="row">
                         <div className="col descriptionText my-auto">
-                            <h3 className="ContatoText text-end">Você pode marcar um horário</h3>
+                            <h3 className="ContatoText text-end">Marque sua consulta comigo</h3>
 
                         </div>
 

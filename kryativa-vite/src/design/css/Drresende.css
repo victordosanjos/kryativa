@@ -44,11 +44,6 @@
     font-weight: 200;
 }
 
-.BioText:hover {
-    color: #1394f0;
-    transition:.6s ease;
-}
-
 
 .botao {
     color:white;
@@ -99,7 +94,7 @@
 }
 
 .mapControl{
-    height: 13vh;
+    height: 20vh;
     width: 100%;
     border-radius: 50px 50px 50px 50px;
     }
@@ -135,6 +130,7 @@
         }
 
         .mapControl {
+            height: 20vh;
             width: 100%;
 
         }
