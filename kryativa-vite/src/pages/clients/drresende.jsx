@@ -11,12 +11,12 @@ function Drresende() {
 
     const { isLoaded } = useLoadScript({
         id: 'google-map-script',
-        googleMapsApiKey: "KEY"
+        googleMapsApiKey: "KEY",
     })
 
     const LocalizacaoMap = {
-        lat: -20.457725004970996,
-        lng: -54.59073578659181,
+        lat: -20.451364990652063,
+        lng: -54.60549013068906,
     }
 
     return (
@@ -92,10 +92,10 @@ function Drresende() {
                     </div>
                 </div>
                 <div className="container adress text-center">
-                    <a href="https://goo.gl/maps/HCCqcDJQPYTxs9TVA">
+                    <a href="https://goo.gl/maps/KkHfy8nFtcqoSgc79">
                     <h4 className="BioText">Visite meu consultório
                         <br />
-                        R. João Akamine, 103 - Santa Fe, Campo Grande - MS, 79021-240</h4>
+                        Rua Brasil, 395 — Centro. Campo Grande - MS, 79010-230</h4>
                     </a>
                 </div>
 
