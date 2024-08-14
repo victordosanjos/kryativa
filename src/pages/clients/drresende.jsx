@@ -35,7 +35,7 @@ function Drresende() {
                             Minha missão é realçar a sua beleza natural, proporcionando resultados que elevem sua autoestima e bem-estar.
                             <br></br>
                             <br></br>
-                            Cada paciente é único, e minha abordagem é sempre personalizada, visando a harmonia perfeita entre saúde e estética. Vamos juntos transformar o seu sorriso e sua confiança!<br /><br />• CRO/MS 7848</h3>
+                            Cada paciente é único e minha abordagem é sempre personalizada, visando a harmonia perfeita entre saúde e estética. Vamos juntos transformar o seu sorriso e sua confiança!<br /><br />• CRO/MS 7848</h3>
                     </div>
                 </div>
                 <div className="container text-center aditionalButton">
