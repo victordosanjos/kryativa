@@ -5,8 +5,13 @@
 
 }
 
+.mainLogo {
+  width: 15%; /* adjust the width to your desired size */
+  height: auto; /* maintain the aspect ratio */
+}
+
 .bgGradiente {
-    background-image: url(../../images/backgroundresende.webp);
+    background-image: url(../../images/drResende/backgroundresende.webp);
     background-size: cover;
 }
 

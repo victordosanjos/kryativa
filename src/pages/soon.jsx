@@ -1,7 +1,7 @@
 import React from 'react';
+import { Div, H5 } from "../design/js/Soon.jsx";
 import '../design/css/fonts.css';
 import '../design/css/media.css';
-import { Div, H5 } from "../design/js/Soon.jsx";
 import LogoBranca from '../images/logo-branca.webp';
 
 

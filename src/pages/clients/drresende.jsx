@@ -1,9 +1,9 @@
 import React from "react";
 import MadeByUs from "../../components/MadeByUs";
 import '../../design/css/Drresende.css';
-import profileicon from '../../images/clients/Dr Resende.webp';
-import descricaoresende from '../../images/descricaoresende.webp';
-import logoresende from '../../images/logoresende.webp';
+import profileicon from '../../images/drResende/Dr Resende.webp';
+import descricaoresende from '../../images/drResende/descricaoresende.webp';
+import logoresende from '../../images/drResende/logoresende.webp';
 
 
 function Drresende() {
@@ -12,7 +12,7 @@ function Drresende() {
         <>
 
             <div className="container-fluid d-flex align-items-center vh-100 bgGradiente">
-                <img className="BgLogo mx-auto d-block img-fluid" src={logoresende}></img>
+                <img className="mainLogo rounded mx-auto d-block" src={logoresende}></img>
             </div>
 
             <div className="container-fluid bg pagespace">
