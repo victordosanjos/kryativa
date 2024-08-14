@@ -1,0 +1,55 @@
+.outletControl {
+    padding-top: 5vh;
+}
+
+.backgroundText {
+    background-color: #262626;
+}
+
+.backgroundFix {
+    background: white;
+    padding-left: 10vh;
+    
+}
+
+.mainTittleSup {
+    color: #262626;
+    font-size: 8vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 30vh;
+
+}
+
+.mainTittleDown {
+    color: #42D3AC;
+    font-size: 8vh;
+    border-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.SubTitle {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #262626;
+}
+
+@media only screen and (max-width: 767px) {
+    .backgroundFix {
+        padding-left: 0vh;
+    }
+
+
+    .outletControl {
+        padding-left: 3vh;
+    }
+
+    .mainTittleSup {
+        padding-top: 10vh;
+    }
+
+
+}

@@ -1,0 +1,138 @@
+.TextControl {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+}
+
+.bgGradiente {
+    background-image: url(../../images/backgroundresende.webp);
+    background-size: cover;
+}
+
+.bg {
+    background-color: #111111;
+}
+
+.bio {
+    padding-top: 10%;
+    padding-bottom: 55px;
+    padding-left: 15%;
+}
+
+.LogoBio{
+    width: 190%;
+}
+
+.BioProfile{
+    width: 50%;
+}
+
+.description{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aditionalButton {
+    padding-bottom: 100px;
+}
+
+.BioText {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+
+.botao {
+    color:white;
+    background-color: #262626;
+    font-size: 25px;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    border: 0;
+    border-radius: 71px 71px 71px 71px / 66px 66px 66px 66px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #1394f0;
+    transition:.6s ease;
+}
+
+.ContatoText{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+
+.socialIconD{
+    color:white;
+    font-size: 5vh;
+    background-color: #0C85E6;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh ;
+    padding-bottom: 1vh;
+}
+
+.socialIconD:hover {
+    background-color: white;
+    color: #1394f0;
+    transition:.6s ease;
+}
+
+.profile{
+    padding-top: 10px;
+}
+
+.adress{
+    padding-bottom: 1%;
+}
+
+.mapControl{
+    height: 20vh;
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .bgGradiente {
+            max-height: 45vh;
+            }
+
+        .BgLogo {
+            height: 15vh;
+            }
+
+        .LogoBio {
+            width: 200%;
+
+        }
+
+        .BioProfile {
+            width: 60%;
+        }
+
+        .BioText{
+            font-size: medium;
+        }
+
+        .ContatoText {
+            font-size: medium;
+        }
+
+        .botao {
+            font-size: medium;
+        }
+
+        .mapControl {
+            height: 20vh;
+            width: 100%;
+
+        }
+    
+    }

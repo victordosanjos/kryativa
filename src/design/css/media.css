@@ -1,0 +1,50 @@
+.TitleMobileTextFix {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-weight: 550;
+    padding-top: 30vh;
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .TitleMobileTextFix {
+        font-size: 35px;
+    }
+    .SubtitleMobileTextFix {
+        font-size: 12px;
+    }
+    .ImgMobileFix {
+        width: 50%;
+    }
+
+}
+
+.bgControl{
+    background-color: white;
+}
+
+
+
+.IconsControl {
+    color: black;
+    font-size: 3vh;
+    background-color: #00e6b7;
+    padding: 7%;
+    padding-left: 14%;
+    padding-right: 14%;
+
+
+}
+
+.IconsControl:hover {
+    background-color: black;
+    color: #00e6b7;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bgControl{
+        background-color: #262626;
+    }
+}

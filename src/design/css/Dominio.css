@@ -1,0 +1,65 @@
+
+.backgroundPrice {
+    background-image: url(https://sexogay.net.br/wp-content/uploads/2021/01/piroca-grande-fotos3.jpg);
+    background: rgb(66,211,172, 0.3);
+    backdrop-filter: blur(50px);
+    padding-top: 60px;
+    max-width: 60vh;
+    max-height: 100vh;
+
+}
+
+.boxImage{
+    width: 40%;
+}
+
+.BoxText {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #262626;
+}
+
+.boxDescription {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #262626;
+}
+
+.boxIcons {
+    width: 10%;
+    padding-bottom: 10px;
+
+}
+
+.IconValue{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #262626;
+}
+
+
+.boxButton {
+    color: white;
+    background-color: #262626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+
+.SecureText {
+    color: #262626;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 15%;
+}
+
+
